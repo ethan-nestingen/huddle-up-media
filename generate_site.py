@@ -19,8 +19,9 @@ files = {
   <header>
     <div class="logo">The HUM</div>
     <nav>
-      <a href="index.html">Home</a>
+       <a href="index.html">Home</a>
       <a href="about.html">About</a>
+       <a href="blog.html">Blog</a>
       <a href="media.html">Media</a>
       <a href="contact.html">Contact</a>
     </nav>
@@ -247,3 +248,4 @@ with ZipFile(f"{base_dir}.zip", "w") as zipf:
             zipf.write(filepath, os.path.relpath(filepath, base_dir))
 
 print("✅ Website files and ZIP archive created!")
+
